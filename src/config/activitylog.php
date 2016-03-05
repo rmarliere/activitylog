@@ -49,6 +49,18 @@ return [
     
     /*
     |--------------------------------------------------------------------------
+    | Should log when running in the console
+    |--------------------------------------------------------------------------
+    |
+    | If "shouldLogWhenRunningInConsole" the activity will also be logged when the
+    | application is running in console mode.
+    |
+    */
+    'shouldLogWhenRunningInConsole' => false,
+    
+    
+    /*
+    |--------------------------------------------------------------------------
     | The class name for the related user model
     |--------------------------------------------------------------------------
     |
